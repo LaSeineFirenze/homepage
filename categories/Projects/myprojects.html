@@ -10,17 +10,20 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="Seeking internship as software engineer">
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="IEEE1588 Clock SynchronizationUndergraduate Thesis, Feb.-June 2018 This is a software implementation and simulation of clock synchronization based on IEEE1588 protocol.  Used UDP sockets to support mu">
 <meta name="keywords" content="coding, algorithms">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Zilong Lyu">
-<meta property="og:url" content="http://laseinefirenze.github.io/homepage/index.html">
+<meta property="og:url" content="http://laseinefirenze.github.io/homepage/categories/Projects/myprojects.html">
 <meta property="og:site_name" content="Zilong Lyu">
-<meta property="og:description" content="Seeking internship as software engineer">
+<meta property="og:description" content="IEEE1588 Clock SynchronizationUndergraduate Thesis, Feb.-June 2018 This is a software implementation and simulation of clock synchronization based on IEEE1588 protocol.  Used UDP sockets to support mu">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-09-20T04:42:19.276Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zilong Lyu">
-<meta name="twitter:description" content="Seeking internship as software engineer">
+<meta name="twitter:description" content="IEEE1588 Clock SynchronizationUndergraduate Thesis, Feb.-June 2018 This is a software implementation and simulation of clock synchronization based on IEEE1588 protocol.  Used UDP sockets to support mu">
     
 
     
@@ -138,124 +141,126 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="home">Home</em>
+    <a class="page-title-link" href="/homepage/categories/Projects/">Projects</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
+                            <article id="post-myprojects" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/homepage/categories/Projects/myprojects.html" class="article-date">
+            <time datetime="2018-09-20T04:42:19.316Z" itemprop="datePublished">2018-09-20</time>
+        </a>
+    </div>
 
-    
-    
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/homepage/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
+		
+
+                
             </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
         
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/homepage/categories/Projects/">Projects</a>
-            </div>
-            <div class="date"><time datetime="2018-09-20T04:42:19.316Z" itemprop="datePublished">2018-09-20</time></div>
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="IEEE1588-Clock-Synchronization"><a href="#IEEE1588-Clock-Synchronization" class="headerlink" title="IEEE1588 Clock Synchronization"></a>IEEE1588 Clock Synchronization</h2><p><em>Undergraduate Thesis, Feb.-June 2018</em></p>
+<p>This is a software implementation and simulation of clock synchronization based on IEEE1588 protocol.</p>
+<ul>
+<li>Used UDP sockets to support multicasting within network.</li>
+<li>Used C++ to implement logic of local state machines, which support message exchange, state decision and finally enable calibration of locol clock.</li>
+<li>Enable RTP stream transmission without time drift using the software above.</li>
+</ul>
+<hr>
+<h2 id="Greedy-Snake"><a href="#Greedy-Snake" class="headerlink" title="Greedy Snake"></a>Greedy Snake</h2><p><em>Course Project of Java and Object-Oriented Programming, June 2016”</em></p>
+<p>This is a game with UI and supports multiplayers with network connection.</p>
+<ul>
+<li>Used Java to create graphical interfaces and core logic of greedy snake.</li>
+<li>Used Socket APIs to implement server-client model, which support multiplayers via internet.</li>
+</ul>
+<p><a href="https://github.com/LaSeineFirenze/GreedySnake-Java/" target="_blank" rel="noopener">Code</a> is available.</p>
+<hr>
+<h2 id="Facial-Gesture-Recognition"><a href="#Facial-Gesture-Recognition" class="headerlink" title="Facial Gesture Recognition"></a>Facial Gesture Recognition</h2><p><em>Course Project of Media &amp; Recognition, May-June 2016</em></p>
+<p>This is to implement an image classification model using MATLAB. Inputs are images of human faces at different angle.</p>
+<ul>
+<li>Applied PCA to reduce dimension of features space to &lt;300.</li>
+<li>Applied SVM to train a model with 95% accuracy on single-label classification.</li>
+</ul>
+
         </div>
-        
-        <p class="article-excerpt">
-            IEEE1588 Clock SynchronizationUndergraduate Thesis, Feb.-June 2018
-This is a software implementation and simulation of clock synchronization based on IEEE1588 protocol.
+        <footer class="article-footer">
+            
 
-Used UDP sockets to support mu
-        </p>
+
+
+    <a data-url="http://laseinefirenze.github.io/homepage/categories/Projects/myprojects.html" data-id="cjma38nvx0000wn84xuspvfw9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
-    
 
+    <section id="comments">
     
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/homepage/categories/Education/">Education</a>
-            </div>
-            <div class="date"><time datetime="2018-09-19T06:34:57.249Z" itemprop="datePublished">2018-09-19</time></div>
-        </div>
-        
-        <p class="article-excerpt">
-            Georgia Institute of TechnologyAug. 2018 - May 2020(expected)M.S. in Computer and Information Sciences, College of Computing
-
-Tsinghua UniversityAug. 2014 - June 2018B.E. in Electronic Information Sci
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/homepage/categories/Experience/">Experience</a>
-            </div>
-            <div class="date"><time datetime="2018-09-19T04:28:36.011Z" itemprop="datePublished">2018-09-19</time></div>
-        </div>
-        
-        <p class="article-excerpt">
-            Microsoft STCASoftware Engineer InternBeijing, China, June 2017 - Sept. 2017
-I completed classification of polyphony characters in Relevance &amp; News Group.
-
-Go through labeled set and find out wron
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/homepage/categories/Profile/">Profile</a>
-            </div>
-            <div class="date"><time datetime="2018-09-18T05:33:56.517Z" itemprop="datePublished">2018-09-18</time></div>
-        </div>
-        
-        <p class="article-excerpt">
-            Zilong Lyu 吕子龙Seeking internship as software engineer in summer/autumn/winter 2019.
-I am a first-year student of M.S. in Computer and Information Sciences at Georgia Institute of Technology. I am impr
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-
-    </div></section>
+    </section>
 
 
 
@@ -301,6 +306,19 @@ I am a first-year student of M.S. in Computer and Information Sciences at Georgi
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/homepage/categories/Education/myeducation.html" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title"></p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
