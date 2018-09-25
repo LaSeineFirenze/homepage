@@ -379,20 +379,20 @@ code {
 #header-title:after {
   clear: both;
 }
-#header-title .logo-wrap,
-#header-title .subtitle-wrap {
+#header-title .logo-wrap {
   float: left;
 }
-#header-title .subtitle-wrap {
+.subtitle-wrap {
+  float: right;
   padding: 10px 0px 0px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
-#header-title .subtitle {
-  font-size: 16px;
+.subtitle {
+  font-size: 20px;
   font-style: italic;
-  line-height: 70px;
+  line-height: 52px;
   color: rgba(255,255,255,0.7);
-  text-shadow: 0 1px rgba(0,0,0,0.2);
+  text-shadow: 0 2px rgba(0,0,0,0.3);
 }
 .nav-container .nav-icon,
 .nav-container .nav-container-inner #main-nav .main-nav-list-item .main-nav-list-link {
